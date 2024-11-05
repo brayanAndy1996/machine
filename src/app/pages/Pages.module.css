@@ -1,0 +1,169 @@
+.pageMain {
+  height: calc(100vh - 72px);
+  background-color: #e8f0fe;
+}
+
+.titlePageMain {
+  color: #256a81;
+}
+
+.subtitlePageMain {
+  color: #256a81;
+}
+
+.descriptionDiv {
+  background-color: rgba(12, 133, 165, 0.451);
+  width: 30%;
+  height: 100%;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-radius: 0px 80px 80px 0px;
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+  font-weight: 600;
+}
+
+
+.descriptionDivText {
+    background-color: rgba(12, 133, 165, 0.451);
+    width: 85%;
+    height: 50%;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 0px 150px 150px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+  }
+
+.whyPageFirst{
+    background-color: #ffffff;
+    width: 100%;
+    height: 50%;
+}
+
+.whyPageFirst div{
+    background-color: #256A81;
+    width: 100%;
+    height: 100%;
+    border-radius: 150px 0px 0px 150px;
+}
+
+.whyPageSecond{
+    background-color: #256A81;
+    width: 100%;
+    height: 50%;
+}
+
+.whyPageSecond div{
+    background-color: #ffffff;
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 150px 150px 0px;
+}
+
+.whyPageThird{
+    height: 100%;
+    width: 20%;
+}
+
+.whyPageThird1{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 35%;
+}
+
+.whyPageThird1 div{
+    background-color: #256A81;
+    width: 100%;
+    height: 100%;
+    border-radius: 150px 0px 0px 150px;
+}
+
+.whyPageThird2{
+    background-color: #256A81;
+    width: 100%;
+    height: 30%;
+}
+
+.whyPageThird2 div{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 150px 150px 0px;
+}
+
+.whyPageFourth{
+    background-color: #256A81;
+    height: 100%;
+    width: 80%;
+}
+
+.temario{
+    background-color: #E8F0FE;
+    height: 100vh;
+    width: 100%;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temarioCard{
+    width: 90%;
+    background-color: #fff;
+    padding: 32px 64px;
+    border-radius: 80px;
+    display: flex;
+    justify-content:start;
+    align-items: flex-start;
+}
+
+.transform{
+    background-color: rgb(232, 240, 254);
+}
+
+.transform h3{
+    color: #256A81;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.textBlue{
+    color: #256A81;
+}
+
+.preguntasDivider{
+    width: 90%;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-top: 2px solid #256A81;
+}
+
+.uneteButton{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    background-color: #256A81;
+    text-align: center;
+    color: #fff;
+    width: 50%;
+    padding:30px 0px 30px 0px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 50%;
+    position: static;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
