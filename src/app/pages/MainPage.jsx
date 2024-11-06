@@ -59,7 +59,7 @@ const MainPage = () => {
     >
       <div>
         <h1 className={styles.titlePageMain + " text-6xl font-extrabold"}>
-          Aprende Machine Learnin
+          Aprende Machine Learning
         </h1>
         <div className="w-full flex items-center justify-between mt-4">
           <motion.div
