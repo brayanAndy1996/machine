@@ -7,7 +7,7 @@ import {TelefonoIcon}  from '../../icons/Telefono'
 
 const UnetePage = () => {
   return (
-    <div className="w-full h-screen pt-20  flex flex-col justify-between">
+    <div className="w-full h-screen pt-20  flex flex-col justify-between" id='unete'>
       <div>
         <div className={styles.uneteButton}>únete a ellos</div>
         <div className="w-11/12 mx-auto flex items-center">

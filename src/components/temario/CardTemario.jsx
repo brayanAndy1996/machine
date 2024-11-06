@@ -47,9 +47,9 @@ const CardTemario = () => {
   return (
     <div className="w-full h-full flex flex-col gap-4">
       {items.map((item, index) => (
-        <div key={item.index} className={styles.temarioCard}>
+        <div key={item + index} className={styles.temarioCard}>
           <div className="rotate-180 mr-8">
-            <Image src={item.urlImage} width={60} height={60} alt="image" />
+            <Image src={item.urlImage} width={60} height={60} alt="image"  className="w-auto h-auto"/>
           </div>
           <div>
             <h3 className="font-bold mb-4">{item.title}</h3>
