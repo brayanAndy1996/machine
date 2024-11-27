@@ -28,7 +28,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/helpers/toast.js", "src/hooks/useForm.jsx", "src/icons/EyeFilledIcon.jsx", "src/icons/EyeSlashFalledIcon.jsx", "src/components/input/Input.jsx"  ],
   "exclude": [
     "node_modules"
   ]

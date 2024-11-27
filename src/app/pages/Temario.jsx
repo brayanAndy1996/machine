@@ -57,6 +57,7 @@ const Temario = () => {
           initial="hidden"
           animate={viewImage ? "visible" : "hidden"}
         >
+          <h3 className={styles.textBlue + ' text-center text-5xl font-bold'}>TEMARIO</h3>
         <Image src='/images/image_1.png' width={436} height={352} alt="image"  className="w-auto h-auto"/>
         </motion.div>
     </div>

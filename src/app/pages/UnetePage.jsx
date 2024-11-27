@@ -1,13 +1,15 @@
 import Image from "next/image";
-import { Input } from "@nextui-org/react";
+import { Button } from "@nextui-org/react";
+import Link from "next/link";
 import CardsUnete from "../../components/cards/CardsUnete";
 import styles from "./Pages.module.css";
-import {MailIcon} from '../../icons/Mail'
-import {TelefonoIcon}  from '../../icons/Telefono'
 
 const UnetePage = () => {
   return (
-    <div className="w-full h-screen pt-20  flex flex-col justify-between" id='unete'>
+    <div
+      className="w-full h-screen pt-20  flex flex-col justify-between"
+      id="unete"
+    >
       <div>
         <div className={styles.uneteButton}>únete a ellos</div>
         <div className="w-11/12 mx-auto flex items-center">
@@ -33,44 +35,87 @@ const UnetePage = () => {
         </div>
       </div>
       <div className={styles.footer}>
-        <div className="w-1/5">
-          <Image
-            src="/images/image_3.png"
-            width={85}
-            height={85}
-            alt="image"
-            className="w-auto h-auto"
-          />
-          <p className="text-white">Suscribete</p>
-          <Input
-            type="email"
-            variant="underlined"
-            color="default"
-            placeholder="Ingresa tu correo"
-            startContent={
-              <MailIcon className="text-2xl text-default-400 pointer-events-none flex-shrink-0" />
-            }
-          />
+        <div>
+          <div className="flex justify-between mb-4">
+            <Link href="https://x.com/machine_ml" target="_blank">
+              <Image
+                src="/images/logo_x.png"
+                width={24}
+                height={24}
+                alt="image"
+                className="w-auto h-auto"
+              />
+            </Link>
+            <Link
+              href="https://www.instagram.com/mlcoding/profilecard/"
+              target="_blank"
+            >
+              <Image
+                src="/images/insta.png"
+                width={24}
+                height={24}
+                alt="image"
+                className="w-auto h-auto"
+              />
+            </Link>
+            <Link href="https://x.com/machine_ml" target="_blank">
+              <Image
+                src="/images/yt.png"
+                width={24}
+                height={24}
+                alt="image"
+                className="w-auto h-auto"
+              />
+            </Link>
+            <Link href="https://x.com/machine_ml" target="_blank">
+              <Image
+                src="/images/linkedin.png"
+                width={24}
+                height={24}
+                alt="image"
+                className="w-auto h-auto"
+              />
+            </Link>
+          </div>
+          <p className="mb-4">2114403067@undac.edu.pe</p>
+          <div className="flex">
+            <Image
+              src="/images/wts.png"
+              width={20}
+              height={20}
+              alt="image"
+              className="w-auto h-auto"
+            />
+            <p>+51 932886502</p>
+          </div>
         </div>
-        <div className="w-1/5 ml-8">
-          <p className="text-white">Contactenos</p>
-          <Input
-            variant="underlined"
-            color="default"
-            value="9988776654"
-            startContent={
-              <TelefonoIcon className="text-2xl text-default-400 pointer-events-none flex-shrink-0" />
-            }
-          />
-          <Input
-            type="email"
-            variant="underlined"
-            color="default"
-            value="contacto@gmail.com"
-            startContent={
-              <MailIcon className="text-2xl text-default-400 pointer-events-none flex-shrink-0" />
-            }
-          />
+        <div>
+          <p className="mb-4">Verifica el Certificado</p>
+          <p className="mb-4">Valida el certificado Netzun </p>
+          <p className="mb-4">ingresando el código único</p>
+          <Link href="https://netzun.com/" target="_blank">
+            <Button>Verificar Certificado</Button>
+          </Link>
+        </div>
+        <div>
+          <p className="mb-8">Mas Informacion</p>
+          <p className="mb-4">Terminos y Condiciones</p>
+          <p className="mb-4">Politicas de privacidad</p>
+          <p className="mb-4">Pregutas Frecuentes</p>
+          <p className="mb-4">Politicas de privacidad</p>
+        </div>
+        <div>
+          <p className="mb-8">Moneda</p>
+          <div className="flex">
+            <Image
+              src="/images/bandera.png"
+              width={26}
+              height={26}
+              alt="image"
+              className="w-auto h-auto"
+            />
+            <p className="ml-2">SOL</p>
+          </div>
         </div>
       </div>
     </div>

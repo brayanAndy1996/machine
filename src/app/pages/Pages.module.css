@@ -120,6 +120,129 @@
     align-items: flex-start;
 }
 
+.educacionOnline{
+    background-color: #F2994A;
+    height: 100vh;
+    width: 100%;
+    padding: 80px 0px;
+
+}
+
+.educacionOnline .titulo{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #003366;
+    text-align: center;
+}
+
+.acceso{
+    background-color: #E8F0FE;
+    height: 100vh;
+    width: 100%;
+    padding: 80px 0px;
+
+}
+
+.acceso h3{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #256A81;
+    text-align: center;
+
+}
+
+.aprendizaje{
+    background-color: #F2D750;
+    height: 100vh;
+    width: 100%;
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.certificateTitle{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #256A81;
+    text-align: start;
+
+}
+
+.promociones{
+    background-color: #00323F;
+    height: 100vh;
+    width: 100%;
+    padding: 80px 0px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.promociones .anuncio{
+    border-radius: 50px;
+    background-color: #fff;
+    color: #000000;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.lideres{
+    background-color: #256A81;
+    height: 100vh;
+    width: 100%;
+    padding: 80px 0px;
+    color: #fff;
+
+}
+
+.soporte{
+    background-color: #A8DFFD;
+    height: 100vh;
+    width: 100%;
+    padding: 10px 0px;
+    color: #fff;
+
+}
+
+.soporte h3{
+    color: #FF0000;
+    font-weight: 800;
+    font-size: 3rem;
+    text-align: center;
+}
+.soporte span{
+    font-weight: 300;
+    font-size: 2rem;
+    margin-left: 80px;
+}
+
+.soporteCaja{
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-around;
+    /* width: 65%; */
+}
+
+.soporteCaja .nombre{
+    color: #25D366;
+    font-size: 1.5rem;
+}
+
+.soporteCaja .red{
+    color: #CC5500;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
 .transform{
     background-color: rgb(232, 240, 254);
 }
@@ -164,8 +287,10 @@
     position: static;
     bottom: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items: start;
+    color: white;
+    padding-top: 40px;
 }
 
 @media (max-width: 1280px) { 

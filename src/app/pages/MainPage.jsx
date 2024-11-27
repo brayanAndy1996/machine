@@ -3,6 +3,7 @@ import { useRef } from "react";
 import { Button } from "@nextui-org/react";
 import Image from "next/image";
 import styles from "./Pages.module.css";
+import { PdfIcon } from "../../icons/PdfIcon";
 
 const MainPage = () => {
   const imagen1Ref = useRef(null);
@@ -80,18 +81,18 @@ const MainPage = () => {
             De Cero a Experto en Algoritmo Predictivo
           </p>
           <motion.div
-             ref={image2Ref}
-             variants={imagen2Variants}
-             initial="hidden"
-             animate={imagen2InView ? "visible" : "hidden"}
+            ref={image2Ref}
+            variants={imagen2Variants}
+            initial="hidden"
+            animate={imagen2InView ? "visible" : "hidden"}
           >
-          <Image
-            src="/images/image_10.png"
-            width={54}
-            height={53}
-            alt="image"
-            className="w-auto h-auto"
-          />
+            <Image
+              src="/images/image_10.png"
+              width={54}
+              height={53}
+              alt="image"
+              className="w-auto h-auto"
+            />
           </motion.div>
         </div>
         <div className="w-full flex justify-center items-center mt-6">
@@ -99,6 +100,18 @@ const MainPage = () => {
             Aprende con Nosotros
           </Button>
         </div>
+      </div>
+      <div className="absolute bottom-10 right-10 z-50">
+        <Button
+          isIconOnly
+          as="a"
+          href="/documents/documento.pdf"
+          download
+          color="primary"
+          variant="solid"
+        >
+          <PdfIcon />
+        </Button>
       </div>
     </div>
   );
