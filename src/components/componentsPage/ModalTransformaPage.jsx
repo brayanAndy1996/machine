@@ -16,7 +16,7 @@ const initialData = {
 };
 
 const ModalTransformaPage = () => {
-  const { isOpen, open, onOpenChange } = useModal();
+  const { isOpen, open, onOpenChange, close } = useModal();
   const [isVisible, setIsVisible] = useState(false);
   const [isLoadingLogin, setIsLoadingLogin] = useState(false)
   const validations = {
