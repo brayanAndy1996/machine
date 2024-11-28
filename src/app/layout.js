@@ -3,6 +3,8 @@ import { Providers } from "./providers";
 import { ToastContainer } from 'react-toastify'
 import "./globals.css";
 import Nav from "../components/nav/Nav";
+import ButonPdf from '../components/componentsPage/ButonPdf'
+import ButtonWts from '../components/componentsPage/ButtonWts'
 import 'react-toastify/dist/ReactToastify.css'
 
 const geistSans = localFont({
@@ -32,6 +34,8 @@ export default function RootLayout({ children }) {
             <ToastContainer />
             <Nav />
             {children}
+            <ButonPdf/>
+            <ButtonWts/>
           </Providers>
         }
       </body>

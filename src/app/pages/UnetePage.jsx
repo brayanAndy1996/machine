@@ -98,8 +98,11 @@ const UnetePage = () => {
           </Link>
         </div>
         <div>
-          <p className="mb-8">Mas Informacion</p>
-          <p className="mb-4">Terminos y Condiciones</p>
+          <p className="mb-8">Mas Informacion</p>{" "}
+          <Link href="/users" target="_blank">
+             Nuestros alumnos
+          </Link>
+          <p className="mb-4 mt-4">Terminos y Condiciones</p>
           <p className="mb-4">Politicas de privacidad</p>
           <p className="mb-4">Pregutas Frecuentes</p>
           <p className="mb-4">Politicas de privacidad</p>

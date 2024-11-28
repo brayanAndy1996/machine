@@ -3,7 +3,6 @@ import { useRef } from "react";
 import { Button } from "@nextui-org/react";
 import Image from "next/image";
 import styles from "./Pages.module.css";
-import { PdfIcon } from "../../icons/PdfIcon";
 
 const MainPage = () => {
   const imagen1Ref = useRef(null);
@@ -100,18 +99,6 @@ const MainPage = () => {
             Aprende con Nosotros
           </Button>
         </div>
-      </div>
-      <div className="absolute bottom-10 right-10 z-50">
-        <Button
-          isIconOnly
-          as="a"
-          href="/documents/documento.pdf"
-          download
-          color="primary"
-          variant="solid"
-        >
-          <PdfIcon />
-        </Button>
       </div>
     </div>
   );
