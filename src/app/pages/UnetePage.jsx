@@ -37,7 +37,7 @@ const UnetePage = () => {
       <div className={styles.footer}>
         <div>
           <div className="flex justify-between mb-4">
-            <Link href="https://x.com/machine_ml" target="_blank">
+            <Link href="https://x.com/machlearningbpy?t=X97DfxmA-p-hdLoAbMvO-w&s=09" target="_blank">
               <Image
                 src="/images/logo_x.png"
                 width={24}
@@ -47,7 +47,7 @@ const UnetePage = () => {
               />
             </Link>
             <Link
-              href="https://www.instagram.com/mlcoding/profilecard/"
+              href="https://www.instagram.com/machine_bpy?igsh=eTBpMm91c3FqcWV0"
               target="_blank"
             >
               <Image
@@ -58,13 +58,13 @@ const UnetePage = () => {
                 className="w-auto h-auto"
               />
             </Link>
-            <Link href="https://x.com/machine_ml" target="_blank">
+            <Link href="https://www.facebook.com/machinelearningdeceroaexperto?mibextid=ZbWKwL" target="_blank">
               <Image
-                src="/images/yt.png"
+                src="/images/fb.png"
                 width={24}
                 height={24}
                 alt="image"
-                className="w-auto h-auto"
+                className="w-auto h-auto bg-white"
               />
             </Link>
             <Link href="https://x.com/machine_ml" target="_blank">
